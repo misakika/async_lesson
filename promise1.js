@@ -1,5 +1,5 @@
 const sleep = () => {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     setTimeout(() => {
       console.log('sleep done')
       resolve()
