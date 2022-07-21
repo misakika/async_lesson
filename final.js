@@ -31,5 +31,5 @@ const fetchUsers = async () => {
   console.log(posts.data)
 }
 
-// fetchUsers()
+fetchUsers()
 
